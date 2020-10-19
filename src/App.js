@@ -1,10 +1,13 @@
 import React from 'react'
 import { Navigation } from './components/Navigation'
+import { Slider } from './components/slider'
+
 
 export const App = () => {
   return (
     <>
       <Navigation />
+      <Slider />
 
 
 
