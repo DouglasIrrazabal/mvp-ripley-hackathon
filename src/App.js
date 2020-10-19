@@ -1,4 +1,5 @@
 import React from 'react'
+import { Col, Container, Row, ResponsiveEmbed } from 'react-bootstrap'
 import { Navigation } from './components/Navigation'
 import { Slider } from './components/slider'
 
@@ -8,6 +9,20 @@ export const App = () => {
     <>
       <Navigation />
       <Slider />
+
+      {/* Vídeo y texto */}
+      <Container fluid>
+        <Row>
+          <Col xs={12} lg={6}>
+            <ResponsiveEmbed className="mt-3 mr-3 mb-3" aspectRatio="16by9">
+              <embed className="embed-responsive-item" type="video/mp4" src="https://www.youtube.com/embed/DXwyRsYSuK0" />
+            </ResponsiveEmbed>
+          </Col>
+          <Col xs={12} lg={6} style={{backgroundColor: 'red'}}>
+            <h1>Works!</h1>
+          </Col>
+        </Row>
+      </Container>
 
 
 

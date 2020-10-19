@@ -9,7 +9,7 @@ export const Slider = () => {
                     <img
                         className = "d-block w-100"
                         src={require('../assets/img/dog.jpg')}
-                        fluid
+                        // fluid
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -22,7 +22,7 @@ export const Slider = () => {
                     <img
                         className="d-block w-100"
                         src={require('../assets/img/dog.jpg')} //Agregar imagen
-                        fluid
+                        // fluid
                         alt="Third slide"
                     />
                     <Carousel.Caption>
@@ -35,7 +35,7 @@ export const Slider = () => {
                     <img
                         className="d-block w-100"
                         src={require('../assets/img/dog.jpg')} //Agregar imagen
-                        fluid
+                        // fluid
                         alt="Third slide"
                     />
                     <Carousel.Caption>
