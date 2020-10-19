@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navigation } from './components/Navigation'
 import { Slider } from './components/slider'
+import './assets/css/App.css'
 
 
 export const App = () => {

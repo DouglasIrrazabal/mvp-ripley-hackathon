@@ -6,16 +6,32 @@ export const Navigation = () => {
     return (
         <>
             <Navbar className = "top-bar" bg="light" expand="lg">
-                <Navbar.Brand className="logo" href="#home">Ripley MVP</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Brand className="logo" href = "home#" >
+                    <img 
+                        src = {require("../assets/img/logo.svg")}
+                        width="200"
+                        className="d-inline-block align-top"
+                        alt="logo"
+                    />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="asic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link href="#home">NUESTRA EMPRESA</Nav.Link>
+                <li>
+                    <Nav.Link href="#home">SOBRE RIPLEY TECH</Nav.Link>
+                </li>
+                <li>
                     <Nav.Link href="#link">CULTURA</Nav.Link>
+                </li>
+                <li>
                     <Nav.Link href="#link">ÚNETE</Nav.Link>
+                </li>
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>
+            <hr />
         </>
+
+
     )
 }
