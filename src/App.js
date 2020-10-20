@@ -4,6 +4,9 @@ import { Navigation } from './components/Navigation'
 import { Slider } from './components/slider'
 import { YoutubeVideo } from './components/youtubeVideo';
 import { YoutubeVideoText } from './components/youtubeVideoText';
+import { Rworks } from './components/rworks';
+import { Rbear } from './components/rbear';
+import { Rmorita } from './components/rmorita';
 import './assets/css/App.css'
 
 
@@ -21,6 +24,19 @@ export const App = () => {
           </Col>
           <Col xs={12} lg={6} className="text-center mt-4">
             <YoutubeVideoText />
+          </Col>
+        </Row>
+      </Container>
+      <Container className = "rest">
+        <Row>
+          <Col xs = {12} lg = {6} className = "orange-container rest-container">
+            <Rworks></Rworks>
+          </Col>
+          <Col xs = {12} lg = {6} className = "gray-container rest-container">
+            <Rbear></Rbear>
+          </Col>
+          <Col xs = {12} lg = {6} className = "orange-container rest-container">
+            <Rmorita></Rmorita>
           </Col>
         </Row>
       </Container>

@@ -1,3 +1,14 @@
 body {
     background-color: #f8f9fa;
 }
+
+.rest-container {
+    background-color: red;
+    width: 100%;
+}
+
+.rest-img {
+    width: 200px;
+    height: 200px;
+}
+
