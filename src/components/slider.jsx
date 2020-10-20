@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import '../assets/css/slider.css'
 
 export const Slider = () => {
   return (
@@ -7,20 +8,20 @@ export const Slider = () => {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 img-carousel"
             src={require("../assets/img/dog.jpg")}
-            alt="First slide"
+            alt="Primera imagen"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Somos transparentes</h3>
+            <p>Mostramos a los demás todo lo que hacemos, siempre abiertos a recibir y dar feedback que permita aprender, crecer y mejorar.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 img-carousel"
             src={require("../assets/img/dog.jpg")}
-            alt="Third slide"
+            alt="Segunda imagen"
           />
 
           <Carousel.Caption>
@@ -30,9 +31,9 @@ export const Slider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 img-carousel"
             src={require("../assets/img/dog.jpg")}
-            alt="Third slide"
+            alt="Tercera imagen"
           />
           <Carousel.Caption>
             <h3>Third slide label</h3>
