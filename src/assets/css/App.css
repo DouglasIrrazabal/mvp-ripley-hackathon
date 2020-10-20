@@ -8,16 +8,12 @@ body {
 }
 
 .rest-container {
-    border-radius: 100%;
+    border-radius: 95%;
     width: 100%;
-    margin-left: 6.2%;
+    padding: 1%;
+    height: auto;
+    margin: 10% 5% 10% 3% ;
 }
-
-.rest-img {
-    width: 200px;
-    height: 200px;
-}
-
 
 .gray {
     background-color: #4f4f4f;
@@ -25,5 +21,13 @@ body {
 
 .orange {
     background-color: #ff4b00;
+}
+
+.third-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 

@@ -31,7 +31,7 @@ export const App = () => {
         </Container>
 
         {/* Descanso */}
-        <div className = "third-container">
+        <Container className = "third-container">
           <Row>
             <Col xs={12} lg={3} className="rest-container orange">
               <Rworks />
@@ -43,7 +43,7 @@ export const App = () => {
               <Rmorita />
             </Col>
           </Row>
-        </div>
+        </Container>
 
         {/* Formulario y puestos disponibles */}
         <Container fluid>
@@ -56,10 +56,9 @@ export const App = () => {
             </Col>
           </Row>
         </Container>
-<<<<<<< HEAD
-=======
 
         {/* Footer */}
+        
         <Navbar>
           <Navbar.Brand href="#home">
             RRSS
@@ -72,7 +71,6 @@ export const App = () => {
           </Navbar.Collapse>
         </Navbar>
         {/* src={require("../assets/img/dog.jpg")} */}
->>>>>>> 8e035ee89cf08c22811abef7d7a2e9c63cf9a80f
     </>
   );
 };
