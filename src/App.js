@@ -19,7 +19,6 @@ export const App = () => {
       <Slider />
 
       {/* Vídeo y texto */}
-<<<<<<< HEAD
         <Container fluid>
           <Row>
             <Col xs={12} lg={6}>
@@ -59,65 +58,6 @@ export const App = () => {
             </Col>
           </Row>
         </Container>
-=======
-      <Container fluid>
-        <Row className="justify-content-md-center">
-          <Col xs={12} lg={5}>
-            <YoutubeVideo />
-          </Col>
-          <Col xs={12} lg={5} className="text-center mt-4">
-            <YoutubeVideoText />
-          </Col>
-        </Row>
-      </Container>
-      {/* Descanso */}
-      <hr />
-      <Container className="rest">
-        <Row>
-          <Col xs={12} lg={4} className="rest-container orange">
-            <Rworks />
-          </Col>
-          <Col xs={12} lg={4} className="rest-container gray">
-            <Rbear />
-          </Col>
-          <Col xs={12} lg={4} className="rest-container orange">
-            <Rmorita />
-          </Col>
-        </Row>
-      </Container>
-      <hr />
-
-      {/* Formulario y puestos disponibles */}
-      <Container fluid>
-        <Row className="justify-content-md-center">
-          <Col xs={12} lg={5}>
-            <FormUser />
-          </Col>
-          <Col xs={12} lg={5}>
-            <Jobs />
-          </Col>
-        </Row>
-      </Container>
-
-      {/* Footer */}
-      <Navbar>
-        <Navbar.Brand href="#home">
-          RRSS
-        </Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>
-            Hecho por <a href="">Ripley Tech</a>
-          </Navbar.Text>
-        </Navbar.Collapse>
-      </Navbar>
-      {/* src={require("../assets/img/dog.jpg")} */}
-
-
-
-
-      
->>>>>>> 7b633569bd9db7e8ccd6666aa2de40c517758a9b
     </>
   );
 };
