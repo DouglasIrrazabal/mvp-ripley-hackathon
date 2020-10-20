@@ -1,7 +1,9 @@
 import React from 'react'
-import { Col, Container, Row, ResponsiveEmbed } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { Navigation } from './components/Navigation'
 import { Slider } from './components/slider'
+import { YoutubeVideo } from './components/youtubeVideo';
+import { YoutubeVideoText } from './components/youtubeVideoText';
 import './assets/css/App.css'
 
 
@@ -15,19 +17,10 @@ export const App = () => {
       <Container fluid>
         <Row>
           <Col xs={12} lg={6}>
-            <ResponsiveEmbed className="mt-3 mr-3 mb-3" aspectRatio="16by9">
-              <embed className="embed-responsive-item" type="video/mp4" src="https://www.youtube.com/embed/DXwyRsYSuK0" />
-            </ResponsiveEmbed>
+            <YoutubeVideo />
           </Col>
           <Col xs={12} lg={6} className="text-center mt-4">
-            <h1>
-              ¿Cómo es trabajar en RipleyTech?
-            </h1>
-            <p>
-              Cambiar la forma en que hacemos las cosas no es solo una declaración de intenciones sino un conjunto de propuestas 
-              que ofrecemos tanto a quienes forman parte de RipleyTech como a personas en busca de nuevos desafíos laborales que 
-              quieran integrarse a nuestros equipos.
-            </p>
+            <YoutubeVideoText />
           </Col>
         </Row>
       </Container>
