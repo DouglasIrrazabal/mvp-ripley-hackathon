@@ -1,6 +1,6 @@
 import React from "react";
 import {ResponsiveEmbed, Image} from "react-bootstrap";
-import '../assets/css/slider.css'
+import '../assets/css/App.css'
 
 export const Rbear = () => {
   return (

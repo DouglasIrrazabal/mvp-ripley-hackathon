@@ -31,13 +31,13 @@ export const App = () => {
       </Container>
       <Container className = "rest">
         <Row>
-          <Col xs = {12} lg = {6} className = "orange-container rest-container">
+          <Col xs = {12} lg = {4} className = "orange-container rest-container">
             <Rworks></Rworks>
           </Col>
-          <Col xs = {12} lg = {6} className = "gray-container rest-container">
+          <Col xs = {12} lg = {4} className = "gray-container rest-container">
             <Rbear></Rbear>
           </Col>
-          <Col xs = {12} lg = {6} className = "orange-container rest-container">
+          <Col xs = {12} lg = {4} className = "orange-container rest-container">
             <Rmorita></Rmorita>
           </Col>
         </Row>
