@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row, Navbar } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { Navigation } from './components/Navigation'
 import { Slider } from './components/slider'
 import { YoutubeVideo } from './components/youtubeVideo';
@@ -10,6 +10,7 @@ import { Rmorita } from './components/rmorita';
 import { FormUser } from './components/formUser';
 import { Jobs } from './components/jobs';
 import './assets/css/App.css'
+import { Footer } from './components/footer';
 
 
 export const App = () => {
@@ -19,57 +20,48 @@ export const App = () => {
       <Slider />
 
       {/* Vídeo y texto */}
-        <Container fluid>
-          <Row className="justify-content-md-center">
-            <Col xs={12} lg={5}>
-              <YoutubeVideo />
-            </Col>
-            <Col xs={12} lg={5} className="text-center mt-4">
-              <YoutubeVideoText />
-            </Col>
-          </Row>
-        </Container>
+      <Container fluid>
+        <Row className="justify-content-md-center">
+          <Col xs={12} lg={5}>
+            <YoutubeVideo />
+          </Col>
+          <Col xs={12} lg={5} className="text-center mt-4">
+            <YoutubeVideoText />
+          </Col>
+        </Row>
+      </Container>
 
-        {/* Descanso */}
-        <div className = "third-container">
-          <Row>
-            <Col xs={12} lg={3} className="rest-container orange">
-              <Rworks />
-            </Col>
-            <Col xs={12} lg={3} className="rest-container gray">
-              <Rbear />
-            </Col>
-            <Col xs={12} lg={3} className="rest-container orange">
-              <Rmorita />
-            </Col>
-          </Row>
-        </div>
+      {/* Descanso */}
+      <div className = "third-container">
+        <Row>
+          <Col xs={12} lg={3} className="rest-container orange">
+            <Rworks />
+          </Col>
+          <Col xs={12} lg={3} className="rest-container gray">
+            <Rbear />
+          </Col>
+          <Col xs={12} lg={3} className="rest-container orange">
+            <Rmorita />
+          </Col>
+        </Row>
+      </div>
 
-        {/* Formulario y puestos disponibles */}
-        <Container fluid>
-          <Row className="justify-content-md-center">
-            <Col xs={12} lg={5}>
-              <FormUser />
-            </Col>
-            <Col xs={12} lg={5}>
-              <Jobs />
-            </Col>
-          </Row>
-        </Container>
+      {/* Formulario y puestos disponibles */}
+      <Container fluid>
+        <Row className="justify-content-md-center">
+          <Col xs={12} lg={5}>
+            <FormUser />
+          </Col>
+          <Col xs={12} lg={5}>
+            <Jobs />
+          </Col>
+        </Row>
+      </Container>
 
-        {/* Footer */}
-        <Navbar>
-          <Navbar.Brand href="#home">
-            RRSS
-          </Navbar.Brand>
-          <Navbar.Toggle />
-          <Navbar.Collapse className="justify-content-end">
-            <Navbar.Text>
-              Hecho por <a href="">Ripley Tech</a>
-            </Navbar.Text>
-          </Navbar.Collapse>
-        </Navbar>
-        {/* src={require("../assets/img/dog.jpg")} */}
+      {/* Footer */}
+      <Footer />
+      
+
     </>
   );
 };
