@@ -29,16 +29,18 @@ export const App = () => {
           </Col>
         </Row>
       </Container>
+
+      {/* Descanso */}
       <Container className = "rest">
         <Row>
-          <Col xs = {12} lg = {4} className = "orange-container rest-container">
-            <Rworks></Rworks>
+          <Col xs = {12} lg = {4} className = "gray-container rest-container">
+            <Rworks />
           </Col>
           <Col xs = {12} lg = {4} className = "gray-container rest-container">
-            <Rbear></Rbear>
+            <Rbear />
           </Col>
           <Col xs = {12} lg = {4} className = "orange-container rest-container">
-            <Rmorita></Rmorita>
+            <Rmorita />
           </Col>
         </Row>
       </Container>
