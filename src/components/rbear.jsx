@@ -8,6 +8,7 @@ export const Rbear = () => {
       <ResponsiveEmbed>
         <Image src = {require("../assets/img/r-osito.svg")}/>
       </ResponsiveEmbed>
+        {/* <h2>Rworks</h2> */}
     </>
   );
 }

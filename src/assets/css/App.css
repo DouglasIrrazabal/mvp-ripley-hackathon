@@ -10,12 +10,14 @@ body {
 .rest-container {
     border-radius: 100%;
     width: 100%;
+    margin-left: 6.2%;
 }
 
 .rest-img {
     width: 200px;
     height: 200px;
 }
+
 
 .gray {
     background-color: #4f4f4f;

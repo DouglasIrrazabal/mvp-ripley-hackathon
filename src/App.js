@@ -18,44 +18,45 @@ export const App = () => {
       <Slider />
 
       {/* Vídeo y texto */}
-      <Container fluid>
-        <Row>
-          <Col xs={12} lg={6}>
-            <YoutubeVideo />
-          </Col>
-          <Col xs={12} lg={6} className="text-center mt-4">
-            <YoutubeVideoText />
-          </Col>
-        </Row>
-      </Container>
-      {/* Descanso */}
-      <hr />
-      <Container className="rest">
-        <Row>
-          <Col xs={12} lg={4} className="rest-container orange">
-            <Rworks />
-          </Col>
-          <Col xs={12} lg={4} className="rest-container gray">
-            <Rbear />
-          </Col>
-          <Col xs={12} lg={4} className="rest-container orange">
-            <Rmorita />
-          </Col>
-        </Row>
-      </Container>
-      <hr />
+        <Container fluid>
+          <Row>
+            <Col xs={12} lg={6}>
+              <YoutubeVideo />
+            </Col>
+            <Col xs={12} lg={6} className="text-center mt-4">
+              <YoutubeVideoText />
+            </Col>
+          </Row>
+        </Container>
+        {/* Descanso */}
+        <hr />
+        <div className = "third-container">
+          <Row>
+            <Col xs={12} lg={3} className="rest-container orange">
+              <Rworks />
+            </Col>
+            <Col xs={12} lg={3} className="rest-container gray">
+              <Rbear />
+            </Col>
+            <Col xs={12} lg={3} className="rest-container orange">
+              <Rmorita />
+            </Col>
+          </Row>
+        </div>
 
-      {/* Formulario y puestos disponibles */}
-      <Container fluid>
-        <Row>
-          <Col xs={12} lg={6}>
-            <FormUser />
-          </Col>
-          <Col xs={12} lg={6}>
-            <Jobs />
-          </Col>
-        </Row>
-      </Container>
+        <hr />
+
+        {/* Formulario y puestos disponibles */}
+        <Container fluid>
+          <Row>
+            <Col xs={12} lg={6}>
+              <FormUser />
+            </Col>
+            <Col xs={12} lg={6}>
+              <Jobs />
+            </Col>
+          </Row>
+        </Container>
     </>
   );
 };
