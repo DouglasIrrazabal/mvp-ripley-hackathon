@@ -20,17 +20,17 @@ export const App = () => {
 
       {/* Vídeo y texto */}
         <Container fluid>
-          <Row>
-            <Col xs={12} lg={6}>
+          <Row className="justify-content-md-center">
+            <Col xs={12} lg={5}>
               <YoutubeVideo />
             </Col>
-            <Col xs={12} lg={6} className="text-center mt-4">
+            <Col xs={12} lg={5} className="text-center mt-4">
               <YoutubeVideoText />
             </Col>
           </Row>
         </Container>
+
         {/* Descanso */}
-        <hr />
         <div className = "third-container">
           <Row>
             <Col xs={12} lg={3} className="rest-container orange">
@@ -45,19 +45,34 @@ export const App = () => {
           </Row>
         </div>
 
-        <hr />
-
         {/* Formulario y puestos disponibles */}
         <Container fluid>
-          <Row>
-            <Col xs={12} lg={6}>
+          <Row className="justify-content-md-center">
+            <Col xs={12} lg={5}>
               <FormUser />
             </Col>
-            <Col xs={12} lg={6}>
+            <Col xs={12} lg={5}>
               <Jobs />
             </Col>
           </Row>
         </Container>
+<<<<<<< HEAD
+=======
+
+        {/* Footer */}
+        <Navbar>
+          <Navbar.Brand href="#home">
+            RRSS
+          </Navbar.Brand>
+          <Navbar.Toggle />
+          <Navbar.Collapse className="justify-content-end">
+            <Navbar.Text>
+              Hecho por <a href="">Ripley Tech</a>
+            </Navbar.Text>
+          </Navbar.Collapse>
+        </Navbar>
+        {/* src={require("../assets/img/dog.jpg")} */}
+>>>>>>> 8e035ee89cf08c22811abef7d7a2e9c63cf9a80f
     </>
   );
 };
