@@ -19,8 +19,15 @@ export const App = () => {
               <embed className="embed-responsive-item" type="video/mp4" src="https://www.youtube.com/embed/DXwyRsYSuK0" />
             </ResponsiveEmbed>
           </Col>
-          <Col xs={12} lg={6} style={{backgroundColor: 'red'}}>
-            <h1>Works!</h1>
+          <Col xs={12} lg={6} className="text-center mt-4">
+            <h1>
+              ¿Cómo es trabajar en RipleyTech?
+            </h1>
+            <p>
+              Cambiar la forma en que hacemos las cosas no es solo una declaración de intenciones sino un conjunto de propuestas 
+              que ofrecemos tanto a quienes forman parte de RipleyTech como a personas en busca de nuevos desafíos laborales que 
+              quieran integrarse a nuestros equipos.
+            </p>
           </Col>
         </Row>
       </Container>
