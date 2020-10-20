@@ -35,3 +35,8 @@ body {
     padding: 5%;
 }
 
+.description {
+    font-size: 25px;
+    line-height: 200%;
+}
+
