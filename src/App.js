@@ -5,6 +5,7 @@ import { Slider } from './components/slider'
 import { YoutubeVideo } from './components/youtubeVideo';
 import { YoutubeVideoText } from './components/youtubeVideoText';
 import { FormUser } from './components/formUser';
+import { Jobs } from './components/jobs';
 import './assets/css/App.css'
 
 
@@ -33,7 +34,7 @@ export const App = () => {
             <FormUser />
           </Col>
           <Col xs={12} lg={6}>
-            
+            <Jobs />
           </Col>
         </Row>
       </Container>
