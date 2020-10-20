@@ -1,16 +1,15 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import { Navigation } from './components/Navigation'
-import { Slider } from './components/slider'
-import { YoutubeVideo } from './components/youtubeVideo';
-import { YoutubeVideoText } from './components/youtubeVideoText';
-import { Rworks } from './components/rworks';
-import { Rbear } from './components/rbear';
-import { Rmorita } from './components/rmorita';
-import { FormUser } from './components/formUser';
-import { Jobs } from './components/jobs';
-import './assets/css/App.css'
-
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { Navigation } from "./components/Navigation";
+import { Slider } from "./components/slider";
+import { YoutubeVideo } from "./components/youtubeVideo";
+import { YoutubeVideoText } from "./components/youtubeVideoText";
+import { Rworks } from "./components/rworks";
+import { Rbear } from "./components/rbear";
+import { Rmorita } from "./components/rmorita";
+import { FormUser } from "./components/formUser";
+import { Jobs } from "./components/jobs";
+import "./assets/css/App.css";
 
 export const App = () => {
   return (
@@ -29,21 +28,22 @@ export const App = () => {
           </Col>
         </Row>
       </Container>
-
       {/* Descanso */}
-      <Container className = "rest">
+      <hr />
+      <Container className="rest">
         <Row>
-          <Col xs = {12} lg = {4} className = "gray-container rest-container">
+          <Col xs={12} lg={4} className="rest-container orange">
             <Rworks />
           </Col>
-          <Col xs = {12} lg = {4} className = "gray-container rest-container">
+          <Col xs={12} lg={4} className="rest-container gray">
             <Rbear />
           </Col>
-          <Col xs = {12} lg = {4} className = "orange-container rest-container">
+          <Col xs={12} lg={4} className="rest-container orange">
             <Rmorita />
           </Col>
         </Row>
       </Container>
+      <hr />
 
       {/* Formulario y puestos disponibles */}
       <Container fluid>
@@ -56,46 +56,6 @@ export const App = () => {
           </Col>
         </Row>
       </Container>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
     </>
-  )
-}
-
+  );
+};

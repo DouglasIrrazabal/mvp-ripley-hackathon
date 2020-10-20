@@ -2,13 +2,26 @@ body {
     background-color: #f8f9fa;
 }
 
+.rest {
+    padding-top: 11%;
+    padding-bottom: 5%;
+}
+
 .rest-container {
-    background-color: red;
+    border-radius: 100%;
     width: 100%;
 }
 
 .rest-img {
     width: 200px;
     height: 200px;
+}
+
+.gray {
+    background-color: #4f4f4f;
+}
+
+.orange {
+    background-color: #ff4b00;
 }
 
