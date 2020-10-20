@@ -4,6 +4,9 @@ import { Form, Button } from 'react-bootstrap'
 export const FormUser = () => {
     return (
         <>
+            <h1 className="text-center">
+                Contáctanos
+            </h1>
             <Form>
                 <Form.Group controlId="formName">
                     <Form.Label>Nombre</Form.Label>
