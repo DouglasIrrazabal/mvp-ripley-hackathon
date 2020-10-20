@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Navbar } from 'react-bootstrap'
 import { Navigation } from './components/Navigation'
 import { Slider } from './components/slider'
 import { YoutubeVideo } from './components/youtubeVideo';
@@ -20,11 +20,11 @@ export const App = () => {
 
       {/* Vídeo y texto */}
       <Container fluid>
-        <Row>
-          <Col xs={12} lg={6}>
+        <Row className="justify-content-md-center">
+          <Col xs={12} lg={5}>
             <YoutubeVideo />
           </Col>
-          <Col xs={12} lg={6} className="text-center mt-4">
+          <Col xs={12} lg={5} className="text-center mt-4">
             <YoutubeVideoText />
           </Col>
         </Row>
@@ -47,49 +47,29 @@ export const App = () => {
 
       {/* Formulario y puestos disponibles */}
       <Container fluid>
-        <Row>
-          <Col xs={12} lg={6}>
+        <Row className="justify-content-md-center">
+          <Col xs={12} lg={5}>
             <FormUser />
           </Col>
-          <Col xs={12} lg={6}>
+          <Col xs={12} lg={5}>
             <Jobs />
           </Col>
         </Row>
       </Container>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      {/* Footer */}
+      <Navbar>
+        <Navbar.Brand href="#home">
+          RRSS
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Text>
+            Hecho por <a href="">Ripley Tech</a>
+          </Navbar.Text>
+        </Navbar.Collapse>
+      </Navbar>
+      {/* src={require("../assets/img/dog.jpg")} */}
 
 
 
