@@ -1,0 +1,14 @@
+.carousel-caption {
+    background-color: rgb(128, 128, 128, 0.5);
+    border-radius: 4px;
+    max-height: 300px;
+}
+
+.img-carousel {
+    overflow: hidden;
+}
+
+.carousel-item {
+    max-height: 600px;
+    overflow: hidden;
+}
