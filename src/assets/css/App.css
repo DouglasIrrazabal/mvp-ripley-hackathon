@@ -8,16 +8,12 @@ body {
 }
 
 .rest-container {
-    border-radius: 100%;
+    border-radius: 95%;
     width: 100%;
-    margin-left: 6.2%;
+    padding: 1%;
+    height: auto;
+    margin: 5% 5% 10% 3% ;
 }
-
-.rest-img {
-    width: 200px;
-    height: 200px;
-}
-
 
 .gray {
     background-color: #4f4f4f;
@@ -25,5 +21,28 @@ body {
 
 .orange {
     background-color: #ff4b00;
+}
+
+.third-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.video-texto {
+    padding: 5%;
+}
+
+.subheader {
+    margin-left: 12%;
+    line-height: 125%;
+}
+
+.description {
+    font-size: 25px;
+    line-height: 200%;
+    margin-left: 12%;
 }
 
