@@ -4,7 +4,7 @@ import '../assets/css/App.css'
 export const YoutubeVideoText = () => {
     return (
         <>
-            <h1>
+            <h1 className = "subheader">
                 ¿Cómo es trabajar en RipleyTech?
             </h1>
             <p className = "description">

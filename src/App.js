@@ -21,7 +21,7 @@ export const App = () => {
       {/* Vídeo y texto */}
         <Container fluid className = "video-texto">
           <Row className="justify-content-md-center">
-            <Col xs={12} lg={5}>
+            <Col xs={12} lg={5} className = "mr-50">
               <YoutubeVideo />
             </Col>
             <Col xs={12} lg={5} className="text-center mt-4">

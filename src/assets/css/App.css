@@ -35,8 +35,14 @@ body {
     padding: 5%;
 }
 
+.subheader {
+    margin-left: 12%;
+    line-height: 125%;
+}
+
 .description {
     font-size: 25px;
     line-height: 200%;
+    margin-left: 12%;
 }
 
