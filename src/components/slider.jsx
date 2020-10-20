@@ -8,38 +8,33 @@ export const Slider = () => {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100 img-carousel"
-            src={require("../assets/img/dog.jpg")}
+            className="d-block w-70 img-carousel"
+            src={require("../assets/img/slider-1.jpg")}
             alt="Primera imagen"
           />
           <Carousel.Caption>
-            <h3>Somos transparentes</h3>
-            <p>Mostramos a los demás todo lo que hacemos, siempre abiertos a recibir y dar feedback que permita aprender, crecer y mejorar.</p>
+            <h3>Conoce R-Works</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 img-carousel"
-            src={require("../assets/img/dog.jpg")}
+            src={require("../assets/img/slider-2.jpg")}
             alt="Segunda imagen"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Únete a nuestro equipo</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 img-carousel"
-            src={require("../assets/img/dog.jpg")}
+            src={require("../assets/img/slider-3.jpg")}
             alt="Tercera imagen"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Innovación Ripley Tech</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

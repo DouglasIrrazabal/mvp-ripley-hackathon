@@ -12,7 +12,7 @@ body {
     width: 100%;
     padding: 1%;
     height: auto;
-    margin: 10% 5% 10% 3% ;
+    margin: 5% 5% 10% 3% ;
 }
 
 .gray {
@@ -29,5 +29,9 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.video-texto {
+    padding: 5%;
 }
 

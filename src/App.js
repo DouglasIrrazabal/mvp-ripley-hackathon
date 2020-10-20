@@ -19,7 +19,7 @@ export const App = () => {
       <Slider />
 
       {/* Vídeo y texto */}
-        <Container fluid>
+        <Container fluid className = "video-texto">
           <Row className="justify-content-md-center">
             <Col xs={12} lg={5}>
               <YoutubeVideo />
