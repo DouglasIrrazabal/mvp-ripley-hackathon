@@ -9,8 +9,8 @@ import { Rbear } from './components/rbear';
 import { Rmorita } from './components/rmorita';
 import { FormUser } from './components/formUser';
 import { Jobs } from './components/jobs';
-import './assets/css/App.css'
 import { Footer } from './components/footer';
+import './assets/css/App.css'
 
 
 export const App = () => {
