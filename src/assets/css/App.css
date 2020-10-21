@@ -7,12 +7,16 @@ body {
     padding-bottom: 5%;
 }
 
+.second-container {
+    padding-top: 3%;
+}
+
 .rest-container {
     border-radius: 95%;
     width: 100%;
     padding: 1%;
     height: auto;
-    margin: 5% 5% 10% 3% ;
+    margin: 15% 5.33% 10% 3% ;
 }
 
 .gray {
@@ -44,5 +48,26 @@ body {
     font-size: 25px;
     line-height: 200%;
     margin-left: 12%;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .subheader {
+        margin-left: 0px;
+        line-height: 125%;
+    }
+
+    .description {
+        font-size: 25px;
+        line-height: 200%;
+        margin-left: 0px;
+    }
+
+    .rest-container {
+
+        margin: 7% 5% 10% 0% ;
+
+    }
+    
 }
 

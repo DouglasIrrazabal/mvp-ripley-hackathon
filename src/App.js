@@ -20,7 +20,7 @@ export const App = () => {
       <Slider />
 
       {/* Vídeo y texto */}
-      <Container fluid>
+      <Container fluid className = "second-container">
         <Row className="justify-content-md-center">
           <Col xs={12} lg={5}>
             <YoutubeVideo />
@@ -34,13 +34,13 @@ export const App = () => {
       {/* Descanso */}
       <div className = "third-container">
         <Row>
-          <Col xs={12} lg={3} className="rest-container orange">
+          <Col xs={12} lg={3} className="rest-container gray">
             <Rworks />
           </Col>
           <Col xs={12} lg={3} className="rest-container gray">
             <Rbear />
           </Col>
-          <Col xs={12} lg={3} className="rest-container orange">
+          <Col xs={12} lg={3} className="rest-container gray">
             <Rmorita />
           </Col>
         </Row>
